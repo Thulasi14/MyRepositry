@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation Testing">
+<test name = "Regression Test">
+<classes>
+<class name = "TestNGPack.Program5"></class>
+</classes>
+</test>
+</suite>

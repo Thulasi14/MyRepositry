@@ -1,0 +1,26 @@
+package failureCaseWorking;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestCaseWarehouse {
+	
+
+	@Test
+	public void test1() {
+		
+		Assert.assertEquals(true, false);
+		
+		System.out.println("TestCase1");
+		
+	}
+	
+	
+	@Test
+	 public void test2() {
+	 
+	 System.out.println("TestCase2");
+	 
+	 }
+
+}

@@ -1,0 +1,31 @@
+package testPackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
+import org.testng.annotations.Test;
+
+public class ThreadPriorityClass {
+	
+	WebDriver driver;
+	
+	@Test(invocationCount=3,threadPoolSize=3)
+	public void launchMethod() {
+	
+	System.setProperty("webdriver.chrome.driver","./DriverFolder/chromedriver.exe");
+	
+	System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
+	
+	driver=new ChromeDriver();
+	
+	driver.get("https://www.facebook.com/");
+	System.out.println("ThreadID:"+Thread.currentThread().getId());
+	
+	}
+	
+	@Test(dependsOnMethods="launchMethod")
+	public void quitMethod(){
+		
+		driver.quit();
+		}
+}

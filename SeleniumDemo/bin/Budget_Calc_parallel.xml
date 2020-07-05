@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "Automation Testing" parallel = "classes" thread-count="5">
+<test name = "Budget Calculator Testing">
+<classes>
+<class name = "BudgetCalculator.BudgetCalc2_TC1"></class>
+<class name = "BudgetCalculator.BudgetCalc2_TC2"></class>
+<class name = "BudgetCalculator.BudgetCalc2_TC3"></class>
+<class name = "BudgetCalculator.BudgetCalc2_TC4"></class>
+<class name = "BudgetCalculator.BudgetCalc2_TC5"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation Testing">
+<test name = "Functional Testing">
+<classes>
+<class name = "Youtub_Demo.YTD1_v1"></class>
+</classes>
+</test>
+</suite>

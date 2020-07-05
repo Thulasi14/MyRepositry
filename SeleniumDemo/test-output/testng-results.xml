@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-29T05:37:26Z" name="Automation Testing" finished-at="2019-07-29T05:39:28Z" duration-ms="121929">
+    <groups>
+    </groups>
+    <test started-at="2019-07-29T05:37:26Z" name="Youtube Testing" finished-at="2019-07-29T05:39:28Z" duration-ms="121929">
+      <class name="Youtub_Demo.YTDNEW1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Youtub_Demo.YTDNEW1@548a102f]" started-at="2019-07-29T05:37:26Z" name="setup" finished-at="2019-07-29T05:37:26Z" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Youtub_Demo.YTDNEW2@5762806e]" started-at="2019-07-29T05:37:26Z" name="setup" finished-at="2019-07-29T05:37:26Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Youtub_Demo.YTDNEW3@17c386de]" started-at="2019-07-29T05:37:26Z" name="setup" finished-at="2019-07-29T05:37:26Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:0, instance:Youtub_Demo.YTDNEW1@548a102f]" started-at="2019-07-29T05:37:26Z" name="test1" finished-at="2019-07-29T05:39:28Z" duration-ms="121263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:Youtub_Demo.YTDNEW1@548a102f]" started-at="2019-07-29T05:39:28Z" name="endtest" finished-at="2019-07-29T05:39:28Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:Youtub_Demo.YTDNEW2@5762806e]" started-at="2019-07-29T05:39:28Z" name="endtest" finished-at="2019-07-29T05:39:28Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:Youtub_Demo.YTDNEW3@17c386de]" started-at="2019-07-29T05:39:28Z" name="endtest" finished-at="2019-07-29T05:39:28Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- Youtub_Demo.YTDNEW1 -->
+      <class name="Youtub_Demo.YTDNEW2">
+        <test-method signature="test1()[pri:0, instance:Youtub_Demo.YTDNEW2@5762806e]" started-at="2019-07-29T05:37:26Z" name="test1" finished-at="2019-07-29T05:38:38Z" duration-ms="71742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Youtub_Demo.YTDNEW2 -->
+      <class name="Youtub_Demo.YTDNEW3">
+        <test-method signature="test1()[pri:0, instance:Youtub_Demo.YTDNEW3@17c386de]" started-at="2019-07-29T05:37:26Z" name="test1" finished-at="2019-07-29T05:38:38Z" duration-ms="71802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Youtub_Demo.YTDNEW3 -->
+    </test> <!-- Youtube Testing -->
+  </suite> <!-- Automation Testing -->
+</testng-results>

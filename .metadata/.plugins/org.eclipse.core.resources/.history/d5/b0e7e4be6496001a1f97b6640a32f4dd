@@ -1,0 +1,35 @@
+package testPackage;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+
+public class Class4 {
+	
+	
+	static WebDriver driver;
+	
+	@Parameters({"url","username","password"})
+	@Test(priority=2)
+	public void login(String locatorAddress) {
+		
+		System.setProperty("webdriver.chrome.driver","./DriverFolder/chromedriver.exe");
+		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
+		driver=new ChromeDriver();
+		driver.get(locatorAddress);
+		
+		 
+	}
+	@Parameters({"username","password"})
+	@Test(priority=1)
+	public void launch(String name,String pwd) {
+		driver.findElement(By.xpath("//input[@name='email']")).sendKeys(name);;
+		driver.findElement(By.xpath("//input[@name='pass']")).sendKeys(pwd);
+	}
+	
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Testing]">
+  <test thread-count="5" name="Regression Testing(failed)">
+    <classes>
+      <class name="JAVA_PACKAGE.READ_FILE">
+        <methods>
+          <include name="setup"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- JAVA_PACKAGE.READ_FILE -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Automation Testing] -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation Testing">
+<test name = "Regression Testing">
+<classes>
+<class name = "JAVA_PACKAGE.READ_FILE"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,27 @@
+package package1;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaScript {
+	
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "./driver1/chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		
+		js.executeScript("window.location='https://www.facebook.com/';");
+		
+		js.executeScript("document.getElementByID('email').setAttribute('value','Thuasi');");
+		js.executeScript("document.getElementByID('pass').setAttribute('value','1234');");
+		
+		
+		
+		
+	}
+
+}

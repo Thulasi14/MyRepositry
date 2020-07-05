@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "Automation Testing" parallel = "classes" thread-count="3">
+<test name = "Youtube Testing">
+<classes>
+<class name = "Youtub_Demo.YTDNEW1"></class>
+<class name = "Youtub_Demo.YTDNEW2"></class>
+<class name = "Youtub_Demo.YTDNEW3"></class>
+</classes>
+</test>
+</suite>

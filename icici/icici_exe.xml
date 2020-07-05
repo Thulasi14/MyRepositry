@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automated Testing">
+<test name="Regression Testing"> 
+<classes>
+<class name = "icici_test.ZTEST">test</class>
+</classes>
+</test>
+</suite>

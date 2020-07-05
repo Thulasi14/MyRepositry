@@ -1,0 +1,46 @@
+package package1;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaScript {
+	
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "./driver1/chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		
+		JavascriptExecutor js=(JavascriptExecutor) driver;
+		
+		js.executeScript("window.location='https://www.facebook.com/';");
+	
+		js.executeScript("document.getElementById('email').setAttribute('value','Thuasi');");
+		
+		js.executeScript("document.getElementById('pass').setAttribute('value','1234');");
+		
+		Object ob=js.executeScript("return document.getElementById('email').getAttribute('value');");
+		
+		System.out.println(ob.toString());
+		
+		js.executeScript("history.go(0);");
+		
+		//js.executeScript("document.getElementById('email').setAttribute('value','Thuasi');");
+		
+		js.executeScript("location.reload();");
+		
+		Object ob1=js.executeScript("return document.title;");
+		
+		System.out.println(ob1.toString());
+		
+		
+		Object ob3=js.executeScript("return document.documentElement.innerText;");
+		
+		System.out.println(ob3.toString());
+		driver.quit();
+		
+		
+	}
+
+}

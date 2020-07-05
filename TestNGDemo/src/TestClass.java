@@ -1,0 +1,49 @@
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class TestClass {
+	
+	@Test
+	public void test1() {
+		
+		System.out.println("====Start====");
+		
+		System.out.println("TestCase1");
+		
+		System.out.println("====End====");
+	}
+	
+	@Test
+	public void test2() {
+		
+		System.out.println("====Start====");
+		
+		int n=2;
+		
+		if(n==2) {
+			System.out.println("Success");
+		}
+		else {
+			System.out.println("Failure");
+		}
+		System.out.println("====End====");
+	}
+	
+	
+	 @Test
+	 public void test3() {
+	 
+	 System.out.println("====Start====");
+	 
+	 int n=2;
+	 
+	 Assert.assertEquals(5, n);
+	 
+	 System.out.println("====End====");
+	 
+	 }
+	
+	
+	 
+
+}

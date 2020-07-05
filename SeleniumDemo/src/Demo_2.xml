@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Automation Testing">
+<test name = "Regression Testing">
+<groups>
+<run>
+<include name= "P1"></include>
+</run>
+</groups>
+<packages>
+<package name = "TestNGPack"></package>
+</packages>
+</test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Budget Calculator]">
+  <test thread-count="2" parallel="classes" name="Regression Testing(failed)">
+    <classes>
+      <class name="BudgetCalculator.BudgetCalc2_TC01">
+        <methods>
+          <include name="BudCalc"/>
+          <include name="endtest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- BudgetCalculator.BudgetCalc2_TC01 -->
+      <class name="BudgetCalculator.BudgetCalc2_TC02">
+        <methods>
+          <include name="BudCalc"/>
+          <include name="setup"/>
+          <include name="endtest"/>
+        </methods>
+      </class> <!-- BudgetCalculator.BudgetCalc2_TC02 -->
+    </classes>
+  </test> <!-- Regression Testing(failed) -->
+</suite> <!-- Failed suite [Budget Calculator] -->
